@@ -191,7 +191,7 @@ async function handleEvent(
     // Promise.all(mailPromises).then(() => {
     //   console.log('All emails sent');
     // });
-    return response;
+    // return response;
   }
   if ((workCreated.type == "issue" && mailingList[0].name !== "error" && workCreated.applies_to_part.name == "Surveys")){
     const rejectBody = {
