@@ -115,7 +115,7 @@ async function handleEvent(
 
   const workCreated = event.payload.work_created.work;
   const startDate = event.input_data.global_values.start_date;
-  const PAT = event.input_data.global_values.PAT;
+  const PAT = event.input_data.global_values.pat;
   const servuct = event.input_data.global_values.survey_config[2];
   const improvements = event.input_data.global_values.survey_config[3];
   const disappointing = event.input_data.global_values.survey_config[5];
